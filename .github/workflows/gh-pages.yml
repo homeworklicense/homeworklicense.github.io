@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - source  # default branch
+      - feature/gh-pages  # default branchxxx
 
 jobs:
   deploy:
