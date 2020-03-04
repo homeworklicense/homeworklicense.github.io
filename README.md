@@ -1,1 +1,0 @@
-# homeworklicense.github.io
