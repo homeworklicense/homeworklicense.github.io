@@ -1,0 +1,55 @@
+{
+  "name": "homeworklicense.github.io",
+  "version": "0.0.1",
+  "description": "The Homework License Webpage",
+  "main": "src/index.html",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/homeworklicense/homeworklicense.github.io.git"
+  },
+  "keywords": [
+    "license",
+    "homework",
+    "homework license"
+  ],
+  "author": "Jakub Koralewski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/homeworklicense/homeworklicense.github.io/issues"
+  },
+  "homepage": "https://github.com/homeworklicense/homeworklicense.github.io#readme",
+  "devDependencies": {
+    "@types/node": "^13.7.7",
+    "@types/webpack": "^4.41.7",
+    "@typescript-eslint/eslint-plugin": "^2.22.0",
+    "@typescript-eslint/parser": "^2.22.0",
+    "autoprefixer": "^9.7.4",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.4.2",
+    "cssnano": "^4.1.10",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "html-webpack-inline-source-plugin": "0.0.10",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.1",
+    "postcss-loader": "^3.0.0",
+    "prettier": "1.19.1",
+    "sass-loader": "^8.0.2",
+    "style-ext-html-webpack-plugin": "^4.1.2",
+    "ts-loader": "^6.2.1",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
