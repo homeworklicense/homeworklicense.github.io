@@ -10,11 +10,11 @@ import TerserPlugin = require("terser-webpack-plugin");
 import { CleanWebpackPlugin } from "clean-webpack-plugin";
 import { WebpackOptions } from "webpack/declarations/WebpackOptions";
 
-const mode = "development";
 // eslint-disable-next-line @typescript-eslint/ban-ts-ignore
 // @ts-ignore
-const dev = "production" !== mode;
+const dev = process.env.NODE_ENV !== "production";
 
+const mode = dev ? "development" : "production";
 const config: WebpackOptions = {
 	mode,
 	devtool: dev ? "cheap-source-map" : false,
