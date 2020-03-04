@@ -1,1 +1,0 @@
-{"version":3,"file":"style.css","sources":["webpack:///./src/styles/style.scss"],"sourcesContent":["/** Copyright 2020 Jakub Koralewski */\n#year, #licenser {\n  background: -webkit-gradient(linear, left top, left bottom, from(#e66465), to(#9198e5));\n  background: linear-gradient(#e66465, #9198e5); }\n"],"mappings":"AAAA;AACA;AACA;AACA;;","sourceRoot":""}
