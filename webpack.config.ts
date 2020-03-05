@@ -94,7 +94,7 @@ const config: WebpackOptions = {
 						drop_debugger: true,
 					},
 					output: {
-						comments: true,
+						comments: "some",
 					},
 				},
 			}),
